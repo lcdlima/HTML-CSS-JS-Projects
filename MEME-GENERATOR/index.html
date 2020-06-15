@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+
+    <section id="forms" class="forms">
+        <form class="pure-form">
+            <label for="sentence">Top:</label>
+            <input maxlength="60" type="text" id="text-input-superior" name="sentence">
+            <label for="sentence">Bottom:</label>
+            <input maxlength="60" type="text" id="text-input-inferior" name="sentence">
+        </form>
+        <p>Choose your photo: </p>
+        <img id="meme-1" class="meme" src="imgs/meme1.jpeg" alt="First meme to choose">
+        <img id="meme-2" class="meme" src="imgs/meme2.jpeg" alt="Second meme to choose">
+        <img id="meme-3" class="meme" src="imgs/meme3.jpeg" alt="Third meme to choose">
+        <img id="meme-4" class="meme" src="imgs/meme4.jpeg" alt="Fourth meme to choose">
+        <form>
+            <label for="image">Or choose a file:</label>
+            <input name="image" id="meme-insert" type="file" multiple="false" accept="image/*" onchange="upload()">
+        </form>
+        <p>Choose your own border:</p>
+        <button id="button1" class="pure-button pure-button-active">3px, dashed, red</button>
+        <button id="button2" class="pure-button pure-button-active">5px, double, blue</button>
+        <button id="button3" class="pure-button pure-button-active">6px, groove, green</button>
+    </section>
+    <section id="meme-image-container" class="meme-image-container">
+        <p id="meme-text-superior" class="meme-text-superior"></p>
+        <p id="meme-text-inferior" class="meme-text-inferior"></p>
+        <img id="meme-image" class="meme-image pure-img">
+    </section>
+</body>
+</html>
