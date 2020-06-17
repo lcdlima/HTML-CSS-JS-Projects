@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>To Do List</h1>
+    </header>
+    <div class="instructions">
+        <p>Click once to select the item</p>
+        <p>Click twice to check it as completed</p>
+    </div>
+    <section class='main-content'>
+        <div class="list-controls">
+            <div>
+                <input id='texto-tarefa' size="50">
+                <button id='criar-tarefa'>Add</button>
+            </div>
+            <div>
+                <button id='apaga-tudo'>Clear All</button>
+                <button id='remover-finalizados'>Remove Finalized Itens</button>
+                <button id='remover-selecionado'>Remove Selected Item</button>
+                <button id='mover-cima'>Move Up</button>
+                <button id='mover-baixo'>Move Down</button>
+                <button id='salvar-tarefas'>Save Itens</button>
+            </div>
+        </div>
+        <ol id='lista-tarefas'></ol>
+    </section>
+</body>
+
+</html>

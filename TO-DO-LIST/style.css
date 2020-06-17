@@ -1,0 +1,70 @@
+body {
+  background-image: url("./images/background_image.jpg");
+  margin: 0;
+  margin-left: 22vw;
+  width: 70vw;
+}
+
+header {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+header h1{
+  margin: 0;
+  padding: 0;
+}
+
+.instructions{
+  font-family: 'Sriracha', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.instructions p{
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  font-family: 'Indie Flower', cursive;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.list-controls {
+  display: block;
+}
+
+button {
+  background-color: #E5A7A2;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 0;
+  padding: 5px 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button , li {
+  cursor: pointer;
+}
+
+#lista-tarefas {
+  font-size: 30px;
+}
+
+.grey {
+  background-color:rgb(72, 144, 235);
+}
+
+.completed {
+  text-decoration: line-through;
+}
