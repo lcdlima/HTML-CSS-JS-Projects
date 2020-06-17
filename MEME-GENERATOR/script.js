@@ -44,6 +44,12 @@ thirdButton.addEventListener("click", function(event){
     box.style.border="6px green groove";
 })
 
+let fourthButton = document.querySelector("#button4");
+fourthButton.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image-container");
+    box.style.border="none";
+})
+
 let firstPhoto = document.querySelector("#meme-1");
 firstPhoto.addEventListener("click", function(event){
     let box = document.querySelector("#meme-image");

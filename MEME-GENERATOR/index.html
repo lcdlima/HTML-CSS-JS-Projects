@@ -6,6 +6,7 @@
     <title>Meme Generator</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script defer src="script.js"></script>
 </head>
@@ -16,9 +17,9 @@
 
     <section id="forms" class="forms">
         <form class="pure-form">
-            <label for="sentence">Top:</label>
+            <label for="sentence">Top Text:</label>
             <input maxlength="60" type="text" id="text-input-superior" name="sentence">
-            <label for="sentence">Bottom:</label>
+            <label for="sentence">Bottom Text:</label>
             <input maxlength="60" type="text" id="text-input-inferior" name="sentence">
         </form>
         <p>Choose your photo: </p>
@@ -31,9 +32,12 @@
             <input name="image" id="meme-insert" type="file" multiple="false" accept="image/*" onchange="upload()">
         </form>
         <p>Choose your own border:</p>
-        <button id="button1" class="pure-button pure-button-active">3px, dashed, red</button>
-        <button id="button2" class="pure-button pure-button-active">5px, double, blue</button>
-        <button id="button3" class="pure-button pure-button-active">6px, groove, green</button>
+        <div class="buttons-div">
+            <button id="button1" class="pure-button pure-button-active">3px, dashed, red</button>
+            <button id="button2" class="pure-button pure-button-active">5px, double, blue</button>
+            <button id="button3" class="pure-button pure-button-active">6px, groove, green</button>
+            <button id="button4" class="pure-button pure-button-active">None</button>
+        </div>
     </section>
     <section id="meme-image-container" class="meme-image-container">
         <p id="meme-text-superior" class="meme-text-superior"></p>
