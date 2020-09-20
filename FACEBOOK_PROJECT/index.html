@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook - entre ou cadastre-se</title>
+    <script src="https://kit.fontawesome.com/e47adab8ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="cabecalho">
+            <img src="images/facebook-logo-1.png" class="facebook-logo" alt="logo do Facebook">
+        <form action="" class="form-header">
+            <div class="form-email">
+                <label for="user-email-phone" id="user-email-phone-label" >Email ou telefone</label>
+                <input id="user-email-phone" type="text">
+            </div>
+            <div class="form-password">
+                <label for="user-password">Senha</label>
+                <input id="user-password" type="password">
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
+            </div>
+            <button class="botao-entrar" id="button-login">Entrar</button>
+        </form>
+        </div>
+    </header>
+    <div class="main">
+        <section class="main-left">
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img src="images/networking.png" id="facebook-networking" alt="imagem com mapa mundi e pessoas conectadas por linhas">
+        </section>
+        <section class="main-right">
+            <div class="left-header">
+                <h1 class="left-title">Abra uma conta</h1>
+                <p>É rápido e fácil.</p>
+            </div>
+            <form action="">
+                <div class="form-cadastro">
+                    <div class="full-name">
+                        <input type="text" class='form-control' placeholder="Nome">
+                        <input type="text" class="sobrenome" class='form-control' placeholder="Sobrenome">
+                    </div>
+                    <input type="text" class='form-control' placeholder="Celular ou email">
+                    <input type="password" class='form-control' placeholder="Nova senha">
+                </div>
+                <div>
+                    <label for="data-cadastro" class="dob-text">Data de nascimento</label>
+                    <input type="text" id="data-cadastro" class='form-control' placeholder="dd/mm/aaaa">
+                    <a href=""><i class="fas fa-question-circle"></i></a>
+                </div>
+                <div>
+                    <p class="dob-text">Gênero</p>
+                    <input type="radio" name="genero" id="genero-feminino" value="Feminino"><label for="genero-feminino">Feminino</label>
+                    <input type="radio" name="genero" id="genero-masculino" value="Masculino"><label for="genero-masculino">Masculino</label>
+                    <input type="radio" name="genero" id="genero-Personalizado" value="Personalizado"><label for="genero-Personalizado">Personalizado</label>
+                    <a href=""><i class="fas fa-question-circle"></i></a>
+                </div>
+                <div class="gen-personalizado">
+                    <select class='form-control-sm' name="">
+                        <option disabled selected>Selecione seu pronome</option>
+                        <option value="Feminino">Feminino: "Deseje a ela um feliz aniversário!"</option>
+                        <option value="Masculino">Masculino: "Deseje a ele um feliz aniversário!"</option>
+                        <option value="Neutro">Neutro: "Deseje a ele(a) um feliz aniversário!"</option>
+                    </select>
+                    <p>O seu pronome fica visível para todos.</p>
+                    <input type="text" class='form-control' placeholder="Gênero (opcional)">
+                </div>
+                <div>
+                    <p class="small-text">
+                        Ao clicar em Cadastre-se, você concorda com nossos Termos,
+                        Política de Dados e Política de Cookies. Você pode receber
+                        notificações por SMS e pode cancelar isso quando quiser.
+                    </p>
+                </div>
+                <button id="facebook-register">Cadastre-se</button>
+            </form>
+            <div>
+                <p>
+                    Criar uma Página para uma celebridade, banda ou empresa.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

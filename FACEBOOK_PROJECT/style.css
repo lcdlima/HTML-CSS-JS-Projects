@@ -1,0 +1,138 @@
+a {
+  color: #9cb4d8;
+}
+
+.top-bar {
+  background-color: #3b5998;
+  display: flex;
+  height: 82px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.cabecalho {
+  color: white;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
+  margin-right: 15px;
+}
+
+.form-password {
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  height: 82px;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.form-header {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  justify-content: flex-end;
+  width: 394px;
+}
+
+.main {
+  background-image: linear-gradient(white, rgb(211, 216, 232));
+  display: flex;
+  height: 640px;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-left {
+  color: rgb(14, 56, 95);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 326px;
+  margin-top: 25px;
+  width: 580px;
+}
+
+.main-left p {
+  height: 87px;
+  width: 450px;
+}
+
+.main-left img {
+  height: 195px;
+  width: 537px;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  height: 608px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.left-header {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  height: 118px;
+  width: 400px;
+}
+
+.left-title {
+  color: rgb(27, 33, 37);
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-right p {
+  color: rgb(29, 33, 41);
+  font-size: 19px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.form-cadastro input {
+  margin: 5px;
+}
+
+.sobrenome {
+  margin-right: 0;
+}
+
+.full-name {
+  display: flex;
+}
+
+.gen-personalizado {
+  display: none;
+  flex-direction: column;
+}
+
+.facebook-logo {
+  display: flex;
+  height: 100%;
+}
+
+.botao-entrar {
+  background-color: #4267b2;
+  color: white;
+  margin-top: 20px;
+}
+
+.dob-text {
+  color: grey;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.small-text {
+  color: grey;
+  font-size: 10px;
+}
