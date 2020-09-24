@@ -10,4 +10,5 @@ Projects done with HTML/CSS/JS
   <li><a href='https://github.com/lcdlima/HTML-CSS-JS-Projects/tree/master/DAILY-PROPHET'>DAILY-PROPHET</a>: This project aimed to build a page with CSS animations and transitions</li>
   <li><a href='https://github.com/lcdlima/HTML-CSS-JS-Projects/tree/master/JS-UNIT-TESTS'>JS-UNIT-TESTS</a>: Using only JS, this project aimed to build unit tests for simple JS functions</li>
   <li><a href='https://github.com/lcdlima/HTML-CSS-JS-Projects/tree/master/ZOO-FUNCTIONS'>ZOO-FUNCTIONS</a>: Using only JS, this project aimed to build unit tests for simple JS functions utilizing high order functions or to build JS functions based on unit tests</li>
+  <li><a href='https://github.com/lcdlima/HTML-CSS-JS-Projects/tree/master/PROJECT-JEST'>PROJECT-JEST</a>: This project aimed to practice jest tests with simple JS scripts</li>
 </ol>
